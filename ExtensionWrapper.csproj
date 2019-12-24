@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>True</IsPackable>
+    <Title>Extension Wrapper</Title>
+    <PackageTags>wrapper, extensionwrapper, IConfiguration wrapper</PackageTags>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Hari Krishna Gaddipati</Authors>
+    <Description>A dot net extensions wrapper that helps mock in the tests.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="LICENSE">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
