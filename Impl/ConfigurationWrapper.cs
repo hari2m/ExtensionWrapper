@@ -15,12 +15,12 @@ namespace ExtensionWrapper.Impl
 
         public string GetValue(string key)
         {
-            return _configuration["key"];
+            return _configuration[key];
         }
 
         public string GetConnectionString(string key)
         {
-            return _configuration.GetConnectionString("key");
+            return _configuration.GetConnectionString(key);
         }
     }
 }
